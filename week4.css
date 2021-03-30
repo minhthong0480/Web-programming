@@ -1,0 +1,41 @@
+h1,h2,h3,h4{font-family: Arial, Helvetica, sans-serif;}
+h1, h2{
+    color: brown;
+}
+
+h1{
+    text-shadow: 2px 2px #FFFF00;
+    font-size: 40px;
+}
+h2{
+    text-shadow: 2px 2px green;
+    font-size: 35px;
+}
+
+h3{
+    color: indianred;
+    font-size: 30px;
+}
+
+h4{
+    color: lightblue;
+    font-size: 25px;
+}
+
+.active {
+    background-color: tomato;
+    color: red
+}
+
+nav li a:hover{
+    background-color: gray;
+}
+  
+#career{
+    font-size: 20px;
+    background-color: lightgreen;
+}
+
+tr:nth-child(2n+1){background-color: yellow;}
+tr:nth-child(2n){background-color: blue;}
+
