@@ -39,3 +39,17 @@ nav li a:hover{
 tr:nth-child(2n+1){background-color: yellow;}
 tr:nth-child(2n){background-color: blue;}
 
+##### Exercise 2
+ol li{color:green}
+
+li:first-child{color: red}
+li:last-child{color: blue}
+
+ol + p::first-line{background-color:pink}            
+p + p::first-line{background-color:yellow}             
+
+p::selection{background-color:yellow} 
+
+input[required]{background-color:green}
+                 
+
