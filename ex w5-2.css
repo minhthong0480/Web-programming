@@ -1,0 +1,30 @@
+header {
+    background-color: lightcoral;
+    width: 100%;
+    position: sticky;
+    top:0;
+}
+footer{
+    background-color: lightgreen;
+    width: 100%;
+    margin-bottom: 10px;
+    clear: both;
+}
+#left{
+    background-color: lightskyblue;
+    float: left;
+    width: 30%;
+    min-width: 200px;
+    margin-right: 0;
+}
+#right{
+    background-color: lightskyblue;
+    float: right;
+    width: 15%;
+    margin-left: 0;
+}
+main{
+    background-color: lavender;
+    float: left;
+    width: calc(100% - 15% - max(30%, 200px));
+}
